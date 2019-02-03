@@ -2,7 +2,8 @@ defmodule TestOverlappingTest do
   use ExUnit.Case
   doctest TestOverlapping
 
-  test "greets the world" do
-    assert TestOverlapping.hello() == :world
+  @tag timeout: :infinity
+  test "mix dialyzer" do
+    Mix.Tasks.Dialyzer.run([])
   end
 end

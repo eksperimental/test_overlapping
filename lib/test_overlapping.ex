@@ -1,4 +1,4 @@
-defmodule Foo do
+defmodule TestOverlapping do
 
   @moduledoc """
   Documentation for TestOverlapping.
